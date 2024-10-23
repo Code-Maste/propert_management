@@ -14,6 +14,9 @@ class Property(models.Model):
     description = models.TextField()
     number_of_units = models.IntegerField()
 
+
+
+
     def __str__(self):
         return self.name
 
